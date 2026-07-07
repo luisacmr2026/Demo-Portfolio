@@ -1,7 +1,7 @@
 -----
 Role label: Product designer
 Introduction: I am a product designer passionate about creating intuitive, accessible, and user-centered digital experiences. My approach blends technical functionality with a refined aesthetic to solve complex problems and elevate brands.
-Based in: Mexico city, Remote friendly
+Based in: Mexico City, Remote friendly
 Available: Open to opportunities
 ------
 

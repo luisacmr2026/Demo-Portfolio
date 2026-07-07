@@ -14,7 +14,11 @@ Published app: https://chores-app.netlify.app/login
 
 ## Process
 
+sitemap: Assets/Sitemap-Fairshare.png
+
 ## Sketching
+
+sketches: Assets/Sketches-Fairshare.png
 
 ## Visual Style Deployment
 
