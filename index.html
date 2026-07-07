@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Product designer portfolio — structural, intentional work across digital systems.">
+  <title>Luisa Mota — Product Designer</title>
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html" class="site-nav__brand type-heading-md">Luisa Mota</a>
+
+        <ul class="site-nav__list">
+          <li><a href="#work" class="site-nav__link type-label">Featured projects</a></li>
+          <li><a href="About/about.html" class="site-nav__link type-label">About</a></li>
+          <li><a href="Contact/contact.html" class="site-nav__link type-label">Contact</a></li>
+        </ul>
+
+        <button
+          class="site-nav__menu-btn"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+          aria-label="Open menu"
+        >
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </button>
+
+        <div id="mobile-nav" class="site-nav__mobile" hidden>
+          <a href="#work" class="site-nav__link type-label">Featured projects</a>
+          <a href="About/about.html" class="site-nav__link type-label">About</a>
+          <a href="Contact/contact.html" class="site-nav__link type-label">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="grid hero__grid">
+          <div class="hero__content">
+            <p class="type-label text-muted">Product designer</p>
+            <div class="shape-group hero__title-group">
+              <h1 id="hero-heading" class="type-display" aria-label="Hello, I'm Luisa Mota!">
+                <span class="hero-title__line">Hell<span class="hero-title__circle" aria-hidden="true"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle fill="currentColor" cx="50" cy="50" r="42"/></svg></span>, I'm</span>
+                <span class="hero-title__name-wrap">
+                  <span class="hero-title__name">Luisa M<span class="hero-title__circle" aria-hidden="true"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle fill="currentColor" cx="50" cy="50" r="42"/></svg></span>ta!</span>
+                  <span class="hero__line" aria-hidden="true">
+                    <svg viewBox="0 0 120 12" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                      <path fill="none" stroke="#607A75" stroke-width="2.5" stroke-linecap="round" d="M2 7 C20 3 38 9 56 5 S92 2 118 6"/>
+                    </svg>
+                  </span>
+                </span>
+              </h1>
+            </div>
+            <p class="type-body hero__intro text-secondary">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+            </p>
+            <dl class="hero__meta">
+              <div>
+                <dt class="type-label text-muted">Based in</dt>
+                <dd class="type-body-sm stack-2">Lorem ipsum</dd>
+              </div>
+              <div>
+                <dt class="type-label text-muted">Available</dt>
+                <dd class="type-body-sm stack-2">Dolor sit amet</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="hero__shapes" aria-hidden="true">
+            <div class="hero__shape hero__shape--wave">
+              <svg viewBox="0 0 120 50" xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" stroke="currentColor" stroke-width="14" stroke-linecap="round" d="M8 28 C28 8 48 38 68 18 S108 32 112 22"/>
+              </svg>
+            </div>
+            <div class="hero__shape hero__shape--sun">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <polygon fill="currentColor" points="50,2 54,32 78,10 62,34 96,28 68,46 98,58 66,54 72,88 50,64 28,88 34,54 2,58 32,46 4,28 38,34 22,10 46,32"/>
+              </svg>
+            </div>
+            <div class="hero__shape hero__shape--semiring">
+              <svg viewBox="0 0 100 55" xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" d="M10 45 A40 40 0 0 1 90 45"/>
+              </svg>
+            </div>
+            <div class="hero__shape hero__shape--circle-lg">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle fill="currentColor" cx="50" cy="50" r="42"/>
+              </svg>
+            </div>
+            <div class="hero__shape hero__shape--stack">
+              <svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg">
+                <circle fill="currentColor" cx="30" cy="22" r="18"/>
+                <circle fill="currentColor" cx="30" cy="60" r="18"/>
+                <circle fill="currentColor" cx="30" cy="98" r="18"/>
+              </svg>
+            </div>
+            <div class="hero__shape hero__shape--rect">
+              <svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg">
+                <rect fill="currentColor" x="8" y="18" width="104" height="44" rx="12" ry="12"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section" aria-labelledby="work-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="type-label text-muted">Selected work</p>
+          <div class="section-header__row">
+            <h2 id="work-heading" class="type-heading-lg">Featured projects</h2>
+            <a href="#" class="btn btn--secondary btn--sm">View all</a>
+          </div>
+        </header>
+
+        <div class="card-grid card-grid--featured">
+          <a href="Forma/forma.html" class="card">
+            <div class="card__media">
+              <img
+                src="Forma/assets/forma-card.jpg"
+                alt="Forma modular furniture models and nail-free customization interface on a design workspace"
+                width="1024"
+                height="571"
+              >
+            </div>
+            <div class="card__body">
+              <div class="card__meta">
+                <span class="badge badge--active">Active</span>
+                <span class="tag">Product design</span>
+              </div>
+              <h3 class="type-heading-md">Forma</h3>
+              <p class="type-body-sm text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p class="type-caption text-muted">2026 · Product design</p>
+            </div>
+          </a>
+
+          <a href="Fairshare/fairshare.html" class="card">
+            <div class="card__media">
+              <img
+                src="Fairshare/Assets/Fairshare-DetailCard.png"
+                alt="Fairshare equitable home care diorama with calendar board, task zones, and app dashboard"
+                width="1376"
+                height="768"
+              >
+            </div>
+            <div class="card__body">
+              <div class="card__meta">
+                <span class="badge badge--active">Active</span>
+                <span class="tag">Product design</span>
+              </div>
+              <h3 class="type-heading-md">Fairshare</h3>
+              <p class="type-body-sm text-secondary">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p class="type-caption text-muted">2024 · Product design</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="grid contact__grid">
+          <div class="contact__intro">
+            <header class="section-header section-header--compact">
+              <p class="type-label text-muted">Contact</p>
+              <h2 id="contact-heading" class="type-heading-lg">Start a project</h2>
+            </header>
+            <p class="type-body text-secondary prose">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+            </p>
+            <p class="type-body-sm text-secondary stack-4">
+              <a href="Contact/contact.html" class="text-link">View full contact page</a>
+            </p>
+          </div>
+
+          <form class="contact__form" action="#" method="post">
+            <div class="field">
+              <label for="name" class="field__label type-label">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="field__input"
+                autocomplete="name"
+                required
+              >
+            </div>
+            <div class="field">
+              <label for="email" class="field__label type-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="field__input"
+                autocomplete="email"
+                required
+              >
+            </div>
+            <div class="field">
+              <label for="message" class="field__label type-label">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                class="field__input field__textarea"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <div class="contact__actions">
+              <button type="submit" class="btn btn--secondary">Send message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="type-caption text-muted">© 2026 Luisa Mota</p>
+      <p class="type-caption text-muted">
+        <a href="mailto:hello@luisamota.com" class="text-link">hello@luisamota.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.querySelector('.site-nav__menu-btn');
+    const mobileNav = document.getElementById('mobile-nav');
+
+    menuBtn.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('is-open');
+      mobileNav.hidden = !isOpen;
+      menuBtn.setAttribute('aria-expanded', String(isOpen));
+      menuBtn.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+    });
+  </script>
+</body>
+</html>

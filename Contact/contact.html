@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Luisa Mota — product design and design system engagements.">
+  <title>Contact — Luisa Mota</title>
+  <link rel="stylesheet" href="../css/base.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav" aria-label="Main">
+        <a href="../index.html" class="site-nav__brand type-heading-md">Luisa Mota</a>
+
+        <ul class="site-nav__list">
+          <li><a href="../index.html#work" class="site-nav__link type-label">Featured projects</a></li>
+          <li><a href="../About/about.html" class="site-nav__link type-label">About</a></li>
+          <li><a href="contact.html" class="site-nav__link type-label" aria-current="page">Contact</a></li>
+        </ul>
+
+        <button
+          class="site-nav__menu-btn"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+          aria-label="Open menu"
+        >
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </button>
+
+        <div id="mobile-nav" class="site-nav__mobile" hidden>
+          <a href="../index.html#work" class="site-nav__link type-label">Featured projects</a>
+          <a href="../About/about.html" class="site-nav__link type-label">About</a>
+          <a href="contact.html" class="site-nav__link type-label" aria-current="page">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section contact-page" aria-labelledby="contact-page-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="type-label text-muted">Contact</p>
+          <h1 id="contact-page-heading" class="type-heading-xl">Start a project</h1>
+        </header>
+
+        <div class="grid contact__grid">
+          <div class="contact__intro">
+            <p class="type-body text-secondary prose">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <dl class="about__list stack-4">
+              <div>
+                <dt class="type-label text-muted">Email</dt>
+                <dd class="type-body-sm stack-2">
+                  <a href="mailto:hello@luisamota.com" class="text-link">hello@luisamota.com</a>
+                </dd>
+              </div>
+              <div>
+                <dt class="type-label text-muted">Response time</dt>
+                <dd class="type-body-sm stack-2">Within two business days</dd>
+              </div>
+            </dl>
+          </div>
+
+          <form class="contact__form" action="#" method="post">
+            <div class="field">
+              <label for="contact-name" class="field__label type-label">Name</label>
+              <input
+                type="text"
+                id="contact-name"
+                name="name"
+                class="field__input"
+                autocomplete="name"
+                required
+              >
+            </div>
+            <div class="field">
+              <label for="contact-email" class="field__label type-label">Email</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="email"
+                class="field__input"
+                autocomplete="email"
+                required
+              >
+            </div>
+            <div class="field">
+              <label for="contact-message" class="field__label type-label">Message</label>
+              <textarea
+                id="contact-message"
+                name="message"
+                class="field__input field__textarea"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+            <div class="contact__actions">
+              <button type="submit" class="btn btn--primary">Send message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="type-caption text-muted">© 2026 Luisa Mota</p>
+      <p class="type-caption text-muted">
+        <a href="mailto:hello@luisamota.com" class="text-link">hello@luisamota.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.querySelector('.site-nav__menu-btn');
+    const mobileNav = document.getElementById('mobile-nav');
+
+    menuBtn.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('is-open');
+      mobileNav.hidden = !isOpen;
+      menuBtn.setAttribute('aria-expanded', String(isOpen));
+      menuBtn.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+    });
+  </script>
+</body>
+</html>

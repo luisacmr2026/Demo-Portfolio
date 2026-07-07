@@ -1,0 +1,121 @@
+/* Shapes catalog page layout */
+
+.shapes-catalog {
+  padding-block: var(--space-16) var(--layout-section);
+}
+
+.shapes-catalog__header {
+  margin-bottom: var(--space-16);
+  max-width: 66ch;
+}
+
+.shapes-catalog__header .type-label {
+  margin-bottom: var(--space-4);
+}
+
+.shapes-catalog__palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-top: var(--space-8);
+}
+
+.palette-swatch {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.palette-swatch__dot {
+  width: 16px;
+  height: 16px;
+  border-radius: var(--radius-circle);
+  flex-shrink: 0;
+}
+
+.palette-swatch__dot--sage { background-color: var(--interactive); }
+.palette-swatch__dot--ochre { background-color: var(--status-warning); }
+.palette-swatch__dot--red { background-color: var(--expressive); }
+
+.shapes-catalog__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-6);
+}
+
+.shape-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  background: transparent;
+  border: none;
+}
+
+.shape-card__stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  background: transparent;
+  border: none;
+}
+
+.shape-card__meta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.shape-card__token {
+  color: var(--text-muted);
+}
+
+/* Library shape sizing */
+
+.shape-lib {
+  display: block;
+  width: 100px;
+  height: 100px;
+  color: var(--interactive);
+}
+
+.shape-lib--wide {
+  width: 120px;
+  height: 80px;
+}
+
+.shape-lib--tall {
+  width: 80px;
+  height: 120px;
+}
+
+.shape-lib--line {
+  width: 120px;
+  height: 40px;
+}
+
+.shape-lib svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible;
+}
+
+.shape-lib--sage { color: var(--interactive); }
+.shape-lib--ochre { color: var(--status-warning); }
+.shape-lib--red { color: var(--expressive); }
+
+.shape-lib path,
+.shape-lib circle,
+.shape-lib rect,
+.shape-lib polygon {
+  fill: currentColor;
+}
+
+.shape-lib .shape-stroke {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

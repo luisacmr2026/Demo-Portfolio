@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Graphic shapes library — Luisa Mota portfolio design system">
+  <title>Shapes Library — Luisa Mota</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/shapes-catalog.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html" class="site-nav__brand type-heading-md">Luisa Mota</a>
+        <ul class="site-nav__list">
+          <li><a href="index.html#work" class="site-nav__link type-label">Featured projects</a></li>
+          <li><a href="About/about.html" class="site-nav__link type-label">About</a></li>
+          <li><a href="Contact/contact.html" class="site-nav__link type-label">Contact</a></li>
+        </ul>
+        <button class="site-nav__menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </button>
+        <div id="mobile-nav" class="site-nav__mobile" hidden>
+          <a href="index.html#work" class="site-nav__link type-label">Featured projects</a>
+          <a href="About/about.html" class="site-nav__link type-label">About</a>
+          <a href="Contact/contact.html" class="site-nav__link type-label">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shapes-catalog">
+    <div class="container">
+      <header class="shapes-catalog__header">
+        <p class="type-label text-muted">Design system</p>
+        <h1 class="type-heading-xl">Shapes library</h1>
+        <p class="type-body text-secondary stack-4">
+          14 decorative graphic motifs in three accent colors. Flat fills and strokes — no faces, no gradients. For editorial accents, not UI chrome.
+        </p>
+        <div class="shapes-catalog__palette" aria-label="Accent colors">
+          <div class="palette-swatch">
+            <span class="palette-swatch__dot palette-swatch__dot--sage"></span>
+            <span class="type-caption">interactive · sage · #607A75</span>
+          </div>
+          <div class="palette-swatch">
+            <span class="palette-swatch__dot palette-swatch__dot--ochre"></span>
+            <span class="type-caption">status.warning · ochre · #E5A93C</span>
+          </div>
+          <div class="palette-swatch">
+            <span class="palette-swatch__dot palette-swatch__dot--red"></span>
+            <span class="type-caption">expressive · red · #E23B2E</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="shapes-catalog__grid">
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--sage" aria-hidden="true">
+              <svg viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 55 Q10 35 28 32 Q32 12 52 18 Q68 8 82 24 Q98 28 95 48 Q100 62 78 58 L18 58 Q8 58 10 55Z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Cloud</h2>
+            <p class="type-caption shape-card__token">shape.cloud</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--red" aria-hidden="true">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="32"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Circle · sm</h2>
+            <p class="type-caption shape-card__token">shape.circle (r=32)</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--ochre" aria-hidden="true">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="42"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Circle · lg</h2>
+            <p class="type-caption shape-card__token">shape.circle.lg (r=42)</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--ochre" aria-hidden="true">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="50,2 54,32 78,10 62,34 96,28 68,46 98,58 66,54 72,88 50,64 28,88 34,54 2,58 32,46 4,28 38,34 22,10 46,32"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Sun burst</h2>
+            <p class="type-caption shape-card__token">shape.sun</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--sage" aria-hidden="true">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <path d="M52 8 C72 6 88 22 90 42 C95 58 82 78 62 88 C42 96 18 88 12 68 C4 48 14 28 32 18 C38 10 44 9 52 8Z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Blob</h2>
+            <p class="type-caption shape-card__token">shape.blob</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--sage" aria-hidden="true">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <rect x="15" y="15" width="70" height="70" rx="12" ry="12"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Rounded square</h2>
+            <p class="type-caption shape-card__token">shape.square</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--red" aria-hidden="true">
+              <svg viewBox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 52 A38 38 0 0 1 88 52 L72 52 A22 22 0 0 0 28 52 Z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Half donut</h2>
+            <p class="type-caption shape-card__token">shape.semiring</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--sage" aria-hidden="true">
+              <svg viewBox="0 0 100 55" xmlns="http://www.w3.org/2000/svg">
+                <path class="shape-stroke" stroke-width="6" d="M10 45 A40 40 0 0 1 90 45"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Semiring · stroke</h2>
+            <p class="type-caption shape-card__token">shape.semiring.stroke</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--wide shape-lib--ochre" aria-hidden="true">
+              <svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="18" width="104" height="44" rx="12" ry="12"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Rounded rectangle</h2>
+            <p class="type-caption shape-card__token">shape.rect</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--sage" aria-hidden="true">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <rect x="18" y="30" width="14" height="55" rx="7"/>
+                <rect x="38" y="18" width="14" height="67" rx="7"/>
+                <rect x="58" y="35" width="14" height="50" rx="7"/>
+                <rect x="78" y="25" width="14" height="60" rx="7"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Vertical bars</h2>
+            <p class="type-caption shape-card__token">shape.bars</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--line shape-lib--sage" aria-hidden="true">
+              <svg viewBox="0 0 120 50" xmlns="http://www.w3.org/2000/svg">
+                <path class="shape-stroke" stroke-width="14" d="M8 28 C28 8 48 38 68 18 S108 32 112 22"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Wavy ribbon</h2>
+            <p class="type-caption shape-card__token">shape.wave</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--red" aria-hidden="true">
+              <svg viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 12 L88 78 Q90 82 85 82 L15 82 Q10 82 12 78 Z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Rounded triangle</h2>
+            <p class="type-caption shape-card__token">shape.triangle</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--tall shape-lib--red" aria-hidden="true">
+              <svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="30" cy="22" r="18"/>
+                <circle cx="30" cy="60" r="18"/>
+                <circle cx="30" cy="98" r="18"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Stacked circles</h2>
+            <p class="type-caption shape-card__token">shape.stack</p>
+          </div>
+        </article>
+
+        <article class="shape-card">
+          <div class="shape-card__stage">
+            <div class="shape-lib shape-lib--line shape-lib--ochre" aria-hidden="true">
+              <svg viewBox="0 0 120 12" xmlns="http://www.w3.org/2000/svg">
+                <path class="shape-stroke" stroke-width="2.5" d="M2 7 C20 3 38 9 56 5 S92 2 118 6"/>
+              </svg>
+            </div>
+          </div>
+          <div class="shape-card__meta">
+            <h2 class="type-heading-sm">Handwriting line</h2>
+            <p class="type-caption shape-card__token">shape.line</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="type-caption text-muted">© 2026 Luisa Mota · Shapes library</p>
+      <p class="type-caption text-muted">
+        <a href="index.html" class="text-link">Back to portfolio</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.querySelector('.site-nav__menu-btn');
+    const mobileNav = document.getElementById('mobile-nav');
+    menuBtn.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('is-open');
+      mobileNav.hidden = !isOpen;
+      menuBtn.setAttribute('aria-expanded', String(isOpen));
+    });
+  </script>
+</body>
+</html>

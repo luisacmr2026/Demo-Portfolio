@@ -1,0 +1,140 @@
+:root {
+  /* Primitives */
+  --color-paper: #F4F1EA;
+  --color-paper-dim: #EAE6DC;
+  --color-ink: #1A1A1A;
+  --color-ink-soft: #3D3D3D;
+  --color-ink-mute: #767370;
+  --color-sage: #607A75;
+  --color-sage-dark: #4C6360;
+  --color-ochre: #E5A93C;
+  --color-ochre-dark: #C88E28;
+  --color-red: #E23B2E;
+  --color-red-dark: #C22E22;
+  --color-white: #FFFFFF;
+
+  /* Semantic */
+  --bg-base: var(--color-paper);
+  --bg-raised: var(--color-white);
+  --bg-sunken: var(--color-paper-dim);
+  --bg-inverse: var(--color-ink);
+  --bg-overlay: rgba(26, 26, 26, 0.40);
+  --text-primary: var(--color-ink);
+  --text-secondary: var(--color-ink-soft);
+  --text-muted: var(--color-ink-mute);
+  --text-inverse: var(--color-paper);
+  --text-link: var(--color-sage-dark);
+  --interactive: var(--color-sage);
+  --interactive-hover: var(--color-sage-dark);
+  --status-warning: var(--color-ochre);
+  --status-critical: var(--color-red);
+  --status-critical-hover: var(--color-red-dark);
+  --expressive: var(--color-red);
+  --border-default: var(--color-ink);
+  --border-subtle: var(--color-paper-dim);
+  --focus-ring: var(--color-sage);
+
+  /* Typography */
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --size-100: 0.75rem;
+  --size-200: 0.875rem;
+  --size-300: 1rem;
+  --size-400: 1.25rem;
+  --size-500: 1.5rem;
+  --size-600: 2rem;
+  --size-700: 3rem;
+  --size-800: 4.5rem;
+  --size-900: 6.25rem;
+
+  --line-tight: 1.05;
+  --line-snug: 1.2;
+  --line-normal: 1.5;
+  --track-tight: -0.02em;
+  --track-normal: 0;
+  --track-wide: 0.08em;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  --layout-gutter: var(--space-6);
+  --layout-margin: var(--space-4);
+  --layout-section: var(--space-24);
+  --layout-container: 1200px;
+
+  /* Radius */
+  --radius-none: 0;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-pill: 9999px;
+  --radius-circle: 50%;
+
+  /* Graphic shapes */
+  --shape-size-sm: 48px;
+  --shape-size-md: 80px;
+  --shape-size-lg: 120px;
+  --shape-radius-soft: 12px;
+  --shape-stroke-thin: 1.5px;
+  --shape-stroke-thick: 3px;
+  --shape-semiring-gap: 25%;
+
+  /* Shadows */
+  --shadow-none: none;
+  --shadow-raised: 0 2px 8px rgba(26, 26, 26, 0.08);
+  --shadow-focus: 0 0 0 2px var(--bg-base), 0 0 0 4px var(--interactive);
+  --shadow-focus-inverse: 0 0 0 2px var(--bg-inverse), 0 0 0 4px var(--interactive);
+  --border-selected: inset 0 0 0 2px var(--interactive);
+
+  /* Borders */
+  --border-hairline: 1px solid var(--border-subtle);
+  --border-strong: 1px solid var(--border-default);
+  --border-focus: 2px solid var(--interactive);
+
+  /* Motion */
+  --motion-instant: 80ms;
+  --motion-fast: 160ms;
+  --motion-base: 240ms;
+  --motion-slow: 400ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-entrance: cubic-bezier(0, 0, 0, 1);
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+
+  /* Z-index */
+  --z-base: 0;
+  --z-sticky: 100;
+  --z-dropdown: 200;
+  --z-overlay: 900;
+  --z-modal: 1000;
+  --z-toast: 1100;
+
+  /* Breakpoints (for reference in media queries) */
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --layout-margin: var(--space-8);
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --layout-margin: var(--space-16);
+  }
+}

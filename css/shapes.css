@@ -1,0 +1,120 @@
+/* Graphic shape motifs — decorative only, not UI chrome. See DESIGN.md § Graphic Shapes. */
+
+.shape {
+  flex-shrink: 0;
+  color: var(--expressive);
+}
+
+.shape--sm {
+  width: var(--shape-size-sm);
+  height: var(--shape-size-sm);
+}
+
+.shape--md {
+  width: var(--shape-size-md);
+  height: var(--shape-size-md);
+}
+
+.shape--lg {
+  width: var(--shape-size-lg);
+  height: var(--shape-size-lg);
+}
+
+.shape--interactive {
+  color: var(--interactive);
+}
+
+.shape--ink {
+  color: var(--border-default);
+}
+
+.shape--neutral {
+  background-color: var(--bg-sunken);
+  color: var(--bg-sunken);
+}
+
+/* Circle */
+
+.shape--circle {
+  border-radius: var(--radius-circle);
+  background-color: currentColor;
+}
+
+/* Rounded square */
+
+.shape--square {
+  border-radius: var(--shape-radius-soft);
+  background-color: currentColor;
+}
+
+.shape--square.shape--stroked {
+  background-color: transparent;
+  border: var(--border-strong);
+  color: var(--border-default);
+}
+
+/* Semiring (half donut) */
+
+.shape--semiring {
+  width: var(--shape-size-md);
+  height: calc(var(--shape-size-md) / 2);
+  color: var(--interactive);
+}
+
+.shape--semiring.shape--sm {
+  width: var(--shape-size-sm);
+  height: calc(var(--shape-size-sm) / 2);
+}
+
+.shape--semiring.shape--lg {
+  width: var(--shape-size-lg);
+  height: calc(var(--shape-size-lg) / 2);
+}
+
+.shape--semiring svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible;
+}
+
+/* Handwriting line */
+
+.shape--line {
+  width: var(--shape-size-md);
+  height: var(--shape-stroke-thin);
+  color: var(--border-default);
+}
+
+.shape--line.shape--sm {
+  width: var(--shape-size-sm);
+}
+
+.shape--line.shape--lg {
+  width: var(--shape-size-lg);
+}
+
+.shape--line.shape--interactive {
+  color: var(--interactive);
+}
+
+.shape--line svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible;
+}
+
+/* Composition helper — shape beside type */
+
+.shape-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+
+.shape-group--row {
+  flex-direction: row;
+  align-items: center;
+}
