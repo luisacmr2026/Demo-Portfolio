@@ -5,6 +5,7 @@ Tagline:
 Role: Product Designer
 Timeline: 2026 - One Week
 Tools and Technology: Cursor, Figma, Supabase
+Team: Solo
 Published app: https://week4-design-system-forma.netlify.app/
 ------
 ## Overview

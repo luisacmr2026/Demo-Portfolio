@@ -5,6 +5,7 @@ Tagline: Harmony at home, divided fairly.
 Role: Product Designer 
 Timeline: 2026 - 6 Weeks
 Tools and Technology: Figma, Cursor, Supabase
+Team: Solo
 Published app: https://chores-app.netlify.app/login
 ------
 ## Overview
@@ -24,6 +25,7 @@ moodboard: Assets/fairshare-moodboard.jpg
 ## AI-Assisted Deployment
 
 ## Gallery
+
 
 ## Deployment
 

@@ -95,7 +95,7 @@ In `index.html`, duplicate a project card inside `.card-grid.card-grid--featured
 
 | Page | File |
 |---|---|
-| Homepage | `index.html` |
+| Homepage | `index.html` · content in `content.md` |
 | Project detail | `{slug}/{slug}.html` |
 | About | `About/about.html` |
 | Contact | `Contact/contact.html` |
