@@ -836,7 +836,7 @@ ol {
 }
 
 .about-hero__main {
-  grid-column: 1 / -1;
+  width: 100%;
 }
 
 .about-hero__tagline {
@@ -844,17 +844,12 @@ ol {
   max-width: none;
 }
 
-.about-hero__meta {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: var(--space-6);
+.about-hero__meta-card {
   margin-top: var(--space-8);
 }
 
-@media (max-width: 767px) {
-  .about-hero__meta {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+.about-hero__meta-list {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .about-page__body {
