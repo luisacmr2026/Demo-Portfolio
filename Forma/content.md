@@ -14,7 +14,8 @@ Published app: https://week4-design-system-forma.netlify.app/
 
 ## Process
 
-## Sketching
+flow: assets/01-Flow-Forma.png
+flow: assets/02-Flow-Forma.png
 
 ## Visual Style Deployment
 
