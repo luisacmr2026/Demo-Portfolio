@@ -1,7 +1,7 @@
 -----
-cover: 
+cover: Assets/Thumbnail.png
 Title: Fairshare
-Tagline: Harmony at home, divided fairly. 
+Tagline: A collaborative household platform designed to simplify chore distribution and restore harmony at home.
 Role: Product Designer 
 Timeline: 2026 - 6 Weeks
 Tools and Technology: Figma, Cursor, Supabase
