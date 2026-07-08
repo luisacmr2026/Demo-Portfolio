@@ -238,7 +238,21 @@ ol {
 }
 
 .site-nav__brand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: var(--text-primary);
+  transition: color var(--motion-fast) var(--ease-standard);
+}
+
+.site-nav__brand:hover {
+  color: var(--interactive);
+}
+
+.site-nav__brand:focus-visible {
+  outline: none;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-focus);
 }
 
 .site-nav__list {
@@ -482,6 +496,19 @@ ol {
   flex-wrap: wrap;
   align-items: center;
   gap: var(--space-2);
+}
+
+.card__devices {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-left: auto;
+  color: var(--text-muted);
+}
+
+.card__device-icon {
+  width: 18px;
+  height: 18px;
 }
 
 /* Badges */
@@ -1173,6 +1200,18 @@ ol {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
+}
+
+.project-gallery__row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+}
+
+@media (min-width: 1024px) {
+  .project-gallery__row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .project-gallery__screen {

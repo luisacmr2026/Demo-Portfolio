@@ -11,7 +11,11 @@
   <header class="site-header">
     <div class="container">
       <nav class="site-nav" aria-label="Main">
-        <a href="../index.html" class="site-nav__brand type-heading-md">Luisa Mota</a>
+        <a href="../index.html" class="site-nav__brand" aria-label="Home">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M3 8.5 10 3l7 5.5V17a1 1 0 0 1-1 1h-4v-5H8v5H4a1 1 0 0 1-1-1V8.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          </svg>
+        </a>
 
         <ul class="site-nav__list">
           <li><a href="../index.html#work" class="site-nav__link type-label" aria-current="page">Featured projects</a></li>
@@ -105,19 +109,26 @@
             <article class="project-section">
               <p class="type-label text-muted">01</p>
               <h2 id="overview-heading" class="type-heading-lg project-section__title">Overview</h2>
-              <div class="prose project-section__content"></div>
+              <div class="prose project-section__content">
+                <p>Fairshare is a collaborative platform that makes managing a shared household easier and more enjoyable. It addresses the everyday challenges of living together by centralizing task management, helping everyone stay on the same page and remain accountable. Instead of boring checklists, Fairshare features a fun point system that motivates everyone to develop good habits and turn routine chores into shared successes. The platform effectively integrates everyone's schedules so that every resident can communicate through a single, unified channel.</p>
+              </div>
             </article>
 
             <article class="project-section">
               <p class="type-label text-muted">02</p>
               <h2 class="type-heading-md project-section__title">Challenge</h2>
-              <div class="prose project-section__content"></div>
+              <div class="prose project-section__content">
+                <p>The challenge for Fairshare was designing a system that balances individual autonomy with collective transparency. Users have unique schedules and preferences. At the same time, the household needs a reliable source of truth to track responsibilities and ensure accountability.</p>
+                <p>The goal was to create a lightweight, user-friendly system that supports daily use, yet is robust enough to maintain accurate synchronization across multiple users. This solution enables households to function smoothly while respecting individual needs.</p>
+              </div>
             </article>
 
             <article class="project-section">
               <p class="type-label text-muted">03</p>
               <h2 class="type-heading-md project-section__title">Process</h2>
-              <div class="prose project-section__content"></div>
+              <div class="prose project-section__content">
+                <p>I began by mapping the information architecture, creating comprehensive user flows and a sitemap to ensure the navigation felt logical for diverse household types.</p>
+              </div>
               <figure class="project-figure project-figure--contained project-figure--viewport">
                 <div class="project-figure__media">
                   <img
@@ -132,12 +143,17 @@
                   <p class="type-caption text-muted"><!-- Sitemap caption: add in content.md --></p>
                 </figcaption>
               </figure>
+              <div class="prose project-section__content">
+                <p>After looking at various household management apps, I noticed some key areas where they fall short, especially in task delegation and gamification. This inspired my approach to a point system for my app.</p>
+              </div>
             </article>
 
             <article class="project-section">
               <p class="type-label text-muted">04</p>
               <h2 class="type-heading-md project-section__title">Sketching</h2>
-              <div class="prose project-section__content"></div>
+              <div class="prose project-section__content">
+                <p>I started sketching out ideas to create a more engaging experience, focusing on user needs and improving functionality. These sketches are just the beginning of refining the overall user experience.</p>
+              </div>
               <figure class="project-figure project-figure--contained project-figure--viewport">
                 <div class="project-figure__media">
                   <img
@@ -157,7 +173,9 @@
             <article class="project-section" aria-labelledby="visual-style-heading">
               <p class="type-label text-muted">05</p>
               <h2 id="visual-style-heading" class="type-heading-md project-section__title">Visual Style Deployment</h2>
-              <div class="prose project-section__content"></div>
+              <div class="prose project-section__content">
+                <p>I curated a mood board to define the aesthetic direction, prioritizing a clean, functional interface. I formalized these design system specifications in a DESIGN.md file within Cursor, ensuring consistency throughout the build. The color palette draws inspiration from our team's working boards, using lively Post-it colors to evoke collaboration and creativity, making the platform feel more like a shared workspace.</p>
+              </div>
               <h3 class="type-heading-sm project-section__subtitle">Mood board</h3>
               <figure class="project-figure project-figure--moodboard">
                 <div class="project-figure__media">
@@ -199,33 +217,35 @@
                     </div>
                   </figure>
                 </div>
-                <div class="project-gallery__item">
-                  <h3 class="type-heading-sm project-gallery__screen">Schedule — week view</h3>
-                  <figure class="project-figure project-figure--contained project-figure--viewport">
-                    <div class="project-figure__media">
-                      <img
-                        src="Assets/03-schedule-week-viewport.png"
-                        alt="Fairshare weekly schedule view with chore assignments across the week"
-                        width="3840"
-                        height="2160"
-                        loading="lazy"
-                      >
-                    </div>
-                  </figure>
-                </div>
-                <div class="project-gallery__item">
-                  <h3 class="type-heading-sm project-gallery__screen">Schedule — month mosaic</h3>
-                  <figure class="project-figure project-figure--contained project-figure--viewport">
-                    <div class="project-figure__media">
-                      <img
-                        src="Assets/04-schedule-month-mosaic-viewport.png"
-                        alt="Fairshare monthly schedule mosaic showing chore distribution over the month"
-                        width="3840"
-                        height="2160"
-                        loading="lazy"
-                      >
-                    </div>
-                  </figure>
+                <div class="project-gallery__row" aria-label="Schedule comparison views">
+                  <div class="project-gallery__item">
+                    <h3 class="type-heading-sm project-gallery__screen">Schedule — week view</h3>
+                    <figure class="project-figure project-figure--contained project-figure--viewport">
+                      <div class="project-figure__media">
+                        <img
+                          src="Assets/03-schedule-week-viewport.png"
+                          alt="Fairshare weekly schedule view with chore assignments across the week"
+                          width="3840"
+                          height="2160"
+                          loading="lazy"
+                        >
+                      </div>
+                    </figure>
+                  </div>
+                  <div class="project-gallery__item">
+                    <h3 class="type-heading-sm project-gallery__screen">Schedule — month mosaic</h3>
+                    <figure class="project-figure project-figure--contained project-figure--viewport">
+                      <div class="project-figure__media">
+                        <img
+                          src="Assets/04-schedule-month-mosaic-viewport.png"
+                          alt="Fairshare monthly schedule mosaic showing chore distribution over the month"
+                          width="3840"
+                          height="2160"
+                          loading="lazy"
+                        >
+                      </div>
+                    </figure>
+                  </div>
                 </div>
                 <div class="project-gallery__item">
                   <h3 class="type-heading-sm project-gallery__screen">Analytics</h3>
@@ -311,7 +331,7 @@
     <div class="container site-footer__inner">
       <p class="type-caption text-muted">© 2026 Luisa Mota</p>
       <p class="type-caption text-muted">
-        <a href="mailto:hello@luisamota.com" class="text-link">hello@luisamota.com</a>
+        <a href="mailto:lucreates10@gmail.com" class="text-link">lucreates10@gmail.com</a>
       </p>
     </div>
   </footer>
