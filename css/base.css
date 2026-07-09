@@ -785,8 +785,25 @@ ol {
   padding-block: var(--space-16) var(--space-12);
 }
 
+.about-hero__grid {
+  align-items: center;
+}
+
 .about-hero__main {
   width: 100%;
+  max-width: none;
+  margin-bottom: 0;
+}
+
+.about-hero .hero__media {
+  width: min(100%, 600px);
+}
+
+.about-hero .hero__image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: cover;
 }
 
 .about-hero__tagline {
