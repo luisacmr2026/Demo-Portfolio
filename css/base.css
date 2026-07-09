@@ -744,6 +744,26 @@ ol {
     margin-inline: 0;
     justify-self: end;
   }
+
+  .hero .hero__grid {
+    align-items: stretch;
+  }
+
+  .hero .hero__media {
+    max-width: none;
+    justify-self: stretch;
+    display: flex;
+    justify-content: flex-end;
+    align-self: stretch;
+  }
+
+  .hero .hero__image {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center right;
+  }
 }
 
 /* About */
