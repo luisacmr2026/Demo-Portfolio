@@ -12,11 +12,7 @@
   <header class="site-header">
     <div class="container">
       <nav class="site-nav" aria-label="Main">
-        <a href="index.html" class="site-nav__brand" aria-label="Home">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-            <path d="M3 8.5 10 3l7 5.5V17a1 1 0 0 1-1 1h-4v-5H8v5H4a1 1 0 0 1-1-1V8.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-          </svg>
-        </a>
+        <a href="index.html" class="site-nav__brand type-heading-md" aria-label="Luisa Mota — Home">Luisa M<span class="site-nav__brand-circle" aria-hidden="true"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle fill="currentColor" cx="50" cy="50" r="42"/></svg></span>ta</a>
         <ul class="site-nav__list">
           <li><a href="index.html#work" class="site-nav__link type-label">Featured projects</a></li>
           <li><a href="About/about.html" class="site-nav__link type-label">About</a></li>
@@ -42,7 +38,14 @@
         <p class="type-label text-muted">Design system</p>
         <h1 class="type-heading-xl">Shapes library</h1>
         <p class="type-body text-secondary stack-4">
-          14 decorative graphic motifs in three accent colors. Flat fills and strokes — no faces, no gradients. For editorial accents, not UI chrome.
+          14 decorative graphic motifs in three accent colors. Flat fills and strokes — no faces, no gradients. For editorial accents, not UI chrome. Download each shape as a 2048px PNG or scalable SVG.
+        </p>
+        <p class="type-body-sm text-secondary">
+          <a href="Wonder/wonder.html" class="text-link">View Wonder library</a>
+          <span class="text-muted"> — 40 textured shapes as original PNGs</span>
+          <br>
+          <a href="Test/test.html" class="text-link">View Test library</a>
+          <span class="text-muted"> — 13 shapes with an expanded eight-color palette</span>
         </p>
         <div class="shapes-catalog__palette" aria-label="Accent colors">
           <div class="palette-swatch">
@@ -271,11 +274,16 @@
     <div class="container site-footer__inner">
       <p class="type-caption text-muted">© 2026 Luisa Mota · Shapes library</p>
       <p class="type-caption text-muted">
+        <a href="Wonder/wonder.html" class="text-link">Wonder library</a>
+        <span aria-hidden="true"> · </span>
+        <a href="Test/test.html" class="text-link">Test library</a>
+        <span aria-hidden="true"> · </span>
         <a href="index.html" class="text-link">Back to portfolio</a>
       </p>
     </div>
   </footer>
 
+  <script src="js/shapes-catalog.js"></script>
   <script>
     const menuBtn = document.querySelector('.site-nav__menu-btn');
     const mobileNav = document.getElementById('mobile-nav');

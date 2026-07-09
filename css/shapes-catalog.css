@@ -71,6 +71,17 @@
   color: var(--text-muted);
 }
 
+.shape-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+
+.shape-card__download {
+  padding-inline: var(--space-3);
+}
+
 /* Library shape sizing */
 
 .shape-lib {

@@ -11,11 +11,7 @@
   <header class="site-header">
     <div class="container">
       <nav class="site-nav" aria-label="Main">
-        <a href="../index.html" class="site-nav__brand" aria-label="Home">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-            <path d="M3 8.5 10 3l7 5.5V17a1 1 0 0 1-1 1h-4v-5H8v5H4a1 1 0 0 1-1-1V8.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-          </svg>
-        </a>
+        <a href="../index.html" class="site-nav__brand type-heading-md" aria-label="Luisa Mota — Home">Luisa M<span class="site-nav__brand-circle" aria-hidden="true"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle fill="currentColor" cx="50" cy="50" r="42"/></svg></span>ta</a>
 
         <ul class="site-nav__list">
           <li><a href="../index.html#work" class="site-nav__link type-label" aria-current="page">Featured projects</a></li>
@@ -45,13 +41,23 @@
   </header>
 
   <main>
-    <section class="project-hero" aria-labelledby="project-heading">
+    <section class="project-hero project-hero--fairshare" aria-labelledby="project-heading">
       <div class="container">
         <div class="grid project-hero__grid">
           <div class="project-hero__main">
             <div class="project-hero__tags">
-              <span class="badge badge--active">Active</span>
+              <span class="badge badge--live">Live</span>
               <span class="tag">Product design</span>
+              <span class="card__devices" aria-label="Responsive — desktop and mobile">
+                <svg class="card__device-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <rect x="2" y="3" width="16" height="11" rx="1.5" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M8 17h4M10 14v3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <svg class="card__device-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <rect x="6" y="2" width="8" height="16" rx="1.5" stroke="currentColor" stroke-width="1.5"/>
+                  <circle cx="10" cy="15" r="0.75" fill="currentColor"/>
+                </svg>
+              </span>
             </div>
             <div class="shape-group project-hero__title-group">
               <h1 id="project-heading" class="type-display">Fairshare</h1>
@@ -59,9 +65,27 @@
             <p class="type-body project-hero__summary text-secondary">
               A collaborative household platform designed to simplify chore distribution and restore harmony at home.
             </p>
+            <div class="project-hero__shape-wrap project-hero__shape-wrap--wave" aria-hidden="true">
+              <img
+                class="project-hero__shape"
+                src="../Wonder/assets/wonder-wave-yellow.png"
+                alt=""
+                width="6400"
+                height="6400"
+              >
+            </div>
           </div>
 
           <div class="project-hero__aside-col">
+            <div class="project-hero__shape-wrap project-hero__shape-wrap--circle" aria-hidden="true">
+              <img
+                class="project-hero__shape"
+                src="../Wonder/assets/wonder-circle-red.png"
+                alt=""
+                width="6400"
+                height="6400"
+              >
+            </div>
             <aside class="project-hero__meta" aria-label="Project details">
               <dl class="project-hero__meta-list">
                 <div>
@@ -80,7 +104,12 @@
               <div class="project-hero__published">
                 <p class="type-label text-muted">Published app</p>
                 <div class="project-hero__actions">
-                  <a href="https://chores-app.netlify.app/login" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Open Published App</a>
+                  <a href="https://chores-app.netlify.app/login" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+                    Open Published App
+                    <svg class="btn__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                      <path d="M5.5 3.5h7v7M12.5 3.5 3.5 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </a>
                 </div>
               </div>
             </aside>
