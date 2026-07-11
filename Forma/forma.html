@@ -138,9 +138,22 @@
     </figure>
 
     <section class="project-content" aria-labelledby="overview-heading">
-      <div class="container">
+      <div class="container project-content__layout">
+        <nav class="project-toc" aria-label="On this page">
+          <p class="project-toc__title type-label text-muted">On this page</p>
+          <ol class="project-toc__list">
+            <li><a class="project-toc__link type-label" href="#overview">Overview</a></li>
+            <li><a class="project-toc__link type-label" href="#challenge">Challenge</a></li>
+            <li><a class="project-toc__link type-label" href="#process">Process</a></li>
+            <li><a class="project-toc__link type-label" href="#ideation">Ideation</a></li>
+            <li><a class="project-toc__link type-label" href="#visual-style">Visual Style</a></li>
+            <li><a class="project-toc__link type-label" href="#ai-assisted">AI-Assisted</a></li>
+            <li><a class="project-toc__link type-label" href="#gallery">Gallery</a></li>
+            <li><a class="project-toc__link type-label" href="#reflection">Reflection</a></li>
+          </ol>
+        </nav>
         <div class="project-content__body">
-            <article class="project-section">
+            <article class="project-section" id="overview">
               <p class="type-label text-muted">01</p>
               <h2 id="overview-heading" class="type-heading-md project-section__title">Overview</h2>
               <div class="prose project-section__content">
@@ -148,7 +161,7 @@
               </div>
             </article>
 
-            <article class="project-section">
+            <article class="project-section" id="challenge">
               <p class="type-label text-muted">02</p>
               <h2 class="type-heading-md project-section__title">Challenge</h2>
               <div class="prose project-section__content">
@@ -156,7 +169,7 @@
               </div>
             </article>
 
-            <article class="project-section">
+            <article class="project-section" id="process">
               <p class="type-label text-muted">03</p>
               <h2 class="type-heading-md project-section__title">Process</h2>
               <ol class="process-steps" aria-label="Design process stages">
@@ -220,7 +233,7 @@
               </ol>
             </article>
 
-            <article class="project-section">
+            <article class="project-section" id="ideation">
               <p class="type-label text-muted">04</p>
               <h2 class="type-heading-md project-section__title">Ideation</h2>
               <div class="prose project-section__content">
@@ -251,7 +264,7 @@
               </figure>
             </article>
 
-            <article class="project-section" aria-labelledby="visual-style-heading">
+            <article class="project-section" id="visual-style" aria-labelledby="visual-style-heading">
               <p class="type-label text-muted">05</p>
               <h2 id="visual-style-heading" class="type-heading-md project-section__title">Visual Style Deployment</h2>
               <div class="prose project-section__content">
@@ -273,7 +286,7 @@
               </figure>
             </article>
 
-            <article class="project-section">
+            <article class="project-section" id="ai-assisted">
               <p class="type-label text-muted">06</p>
               <h2 class="type-heading-md project-section__title">AI-Assisted Deployment</h2>
               <div class="prose project-section__content">
@@ -281,7 +294,7 @@
               </div>
             </article>
 
-            <article class="project-section" aria-labelledby="gallery-heading">
+            <article class="project-section" id="gallery" aria-labelledby="gallery-heading">
               <p class="type-label text-muted">07</p>
               <h2 id="gallery-heading" class="type-heading-md project-section__title">Gallery</h2>
               <div class="prose project-section__content"></div>
@@ -429,14 +442,8 @@
               </div>
             </article>
 
-            <article class="project-section">
+            <article class="project-section" id="reflection">
               <p class="type-label text-muted">08</p>
-              <h2 class="type-heading-md project-section__title">Deployment</h2>
-              <div class="prose project-section__content"></div>
-            </article>
-
-            <article class="project-section">
-              <p class="type-label text-muted">09</p>
               <h2 class="type-heading-md project-section__title">Reflection</h2>
               <div class="prose project-section__content"></div>
             </article>
@@ -485,6 +492,7 @@
     </div>
   </footer>
 
+  <script src="../js/project-toc.js"></script>
   <script>
     const menuBtn = document.querySelector('.site-nav__menu-btn');
     const mobileNav = document.getElementById('mobile-nav');

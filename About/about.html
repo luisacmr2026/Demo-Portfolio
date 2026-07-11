@@ -88,100 +88,166 @@
     </section>
 
     <section class="about-content section" aria-label="About sections">
-      <div class="container">
+      <div class="container about-content__layout">
+        <nav class="project-toc" aria-label="On this page">
+          <p class="project-toc__title type-label text-muted">On this page</p>
+          <ol class="project-toc__list">
+            <li><a class="project-toc__link type-label" href="#introduction">Introduction</a></li>
+            <li><a class="project-toc__link type-label" href="#approach">Approach</a></li>
+            <li><a class="project-toc__link type-label" href="#experience">Experience</a></li>
+            <li><a class="project-toc__link type-label" href="#capabilities">Capabilities</a></li>
+            <li><a class="project-toc__link type-label" href="#education">Education</a></li>
+            <li><a class="project-toc__link type-label" href="#interests">Interests</a></li>
+            <li><a class="project-toc__link type-label" href="#contact">Contact</a></li>
+          </ol>
+        </nav>
+
         <div class="about-page__body">
-          <article class="project-section" aria-labelledby="introduction-heading">
-            <p class="type-label text-muted">01</p>
-            <h2 id="introduction-heading" class="type-heading-md project-section__title">Introduction</h2>
-            <div class="prose project-section__content">
-              <p>I am a product designer dedicated to crafting intuitive and accessible digital experiences. I am passionate about bridging the gap between complex user needs and elegant, functional design solutions.</p>
-            </div>
-          </article>
+          <svg class="about-route" id="about-route" aria-hidden="true">
+            <path class="about-route__stroke" d="" />
+          </svg>
 
-          <article class="project-section" aria-labelledby="approach-heading">
-            <p class="type-label text-muted">02</p>
-            <h2 id="approach-heading" class="type-heading-md project-section__title">Approach</h2>
-            <div class="prose project-section__content">
-              <p>My design process is fundamentally human-centered and human-focused. I believe that great design is always evolving, which is why I embrace an agile methodology that allows for constant iteration and refinement.</p>
-              <p>At the core of my work is a commitment to accessibility; I utilize WCAG guidelines as my primary reference to ensure digital experiences are inclusive for every user. To bridge the gap between user needs and functional solutions, I conduct continuous research throughout the project lifecycle. By keeping the end user at the heart of every decision, I ensure that each design stage is informed by data and grounded in empathy.</p>
-              <p>Beyond the technical process, I am a highly collaborative team player. I believe the best outcomes arise from listening deeply, learning from those around me, and working together to reach meaningful agreements.</p>
-            </div>
-          </article>
-
-          <article class="project-section" aria-labelledby="experience-heading">
-            <p class="type-label text-muted">03</p>
-            <h2 id="experience-heading" class="type-heading-md project-section__title">Experience</h2>
-            <div class="prose project-section__content">
-              <h3 class="type-heading-sm">Product Designer · Alight Solutions, USA · 3 years</h3>
-              <ul>
-                <li>Served as a key member of the product design team, contributing to end-to-end design solutions for an American company.</li>
-                <li>Drove UX strategy and UI execution, acting as a primary contributor to visual consistency and interactive flows.</li>
-                <li>Championed accessibility (A11y) initiatives, ensuring all product interfaces met established standards and provided inclusive experiences for all users.</li>
-              </ul>
-              <h3 class="type-heading-sm stack-4">UX/UI Consultant · SmartSus, Mexico</h3>
-              <ul>
-                <li>Provide strategic consulting to a Mexican startup, applying user-centered design principles to enhance product usability and interface quality.</li>
-                <li>Advise on UX, UI, and A11y best practices to optimize the product experience and streamline design workflows.</li>
-                <li>Drive product improvements through research-backed insights and design expertise.</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="project-section" aria-labelledby="capabilities-heading">
-            <p class="type-label text-muted">04</p>
-            <h2 id="capabilities-heading" class="type-heading-md project-section__title">Capabilities</h2>
-            <div class="about-capabilities">
-              <div class="about-capabilities__item">
-                <h3 class="type-heading-sm project-section__subtitle">Focus</h3>
-                <div class="prose about-capabilities__content">
-                  <ul>
-                    <li><strong>User Experience (UX) Strategy:</strong> Creating intuitive user flows, sitemaps, and information architecture to solve complex problems.</li>
-                    <li><strong>Accessibility (A11y):</strong> Implementing and advocating for WCAG guidelines to ensure inclusive, equitable digital experiences for all users.</li>
-                    <li><strong>User-Centered Design:</strong> Conducting iterative research to deeply understand user needs and keeping those insights at the center of every design decision.</li>
-                    <li><strong>UI &amp; Design Systems:</strong> Developing scalable design systems, typographic scales, and component specifications to ensure visual consistency across products.</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="about-capabilities__item">
-                <h3 class="type-heading-sm project-section__subtitle">Tools</h3>
-                <div class="prose about-capabilities__content">
-                  <p><strong>Design &amp; Prototyping:</strong> Figma, Whimsical, Balsamiq, Cursor</p>
-                  <p><strong>Workflow Integration:</strong> Miro, Mural and Jira</p>
-                </div>
+          <article class="project-section about-section" id="introduction" aria-labelledby="introduction-heading">
+            <div class="about-section__main">
+              <p class="type-label text-muted">01</p>
+              <h2 id="introduction-heading" class="type-heading-md project-section__title">Introduction</h2>
+              <div class="prose project-section__content">
+                <p>I am a product designer dedicated to crafting intuitive and accessible digital experiences. I am passionate about bridging the gap between complex user needs and elegant, functional design solutions.</p>
               </div>
             </div>
-          </article>
-
-          <article class="project-section" aria-labelledby="education-heading">
-            <p class="type-label text-muted">05</p>
-            <h2 id="education-heading" class="type-heading-md project-section__title">Education</h2>
-            <div class="prose project-section__content">
-              <h3 class="type-heading-sm">Master in Human Computer Interaction (HCI) · Iowa State University</h3>
-              <p>Currently focusing on complex design projects, including digital product interface design, interactive ordering systems, and user-centered evaluation protocols.</p>
-              <ul>
-                <li><a href="../Fairshare/fairshare.html" class="text-link">Fairshare</a></li>
-                <li><a href="../Forma/forma.html" class="text-link">Forma</a></li>
-                <li>BotBusters</li>
-                <li>YourPathUSA</li>
-                <li>Belong</li>
-              </ul>
-              <h3 class="type-heading-sm stack-4">Bachelor of Arts in Animation and Digital Art · ITESM (Tecnológico de Monterrey)</h3>
+            <div class="about-section__shape" aria-hidden="true">
+              <img src="../Wonder/assets/wonder-circle-red.png" alt="" width="160" height="160">
             </div>
           </article>
 
-          <article class="project-section" aria-labelledby="interests-heading">
-            <p class="type-label text-muted">06</p>
-            <h2 id="interests-heading" class="type-heading-md project-section__title">Interests</h2>
-            <div class="prose project-section__content">
-              <p>Outside of my professional focus, I am a person who finds joy in creative expression. I love photography and the rhythmic discipline of flamenco. I stay active through tennis and find great satisfaction in the detailed, methodical craft of quilting. Above all, I value meaningful human connections and am committed to fostering community through both my professional and personal life.</p>
+          <article class="project-section about-section" id="approach" aria-labelledby="approach-heading">
+            <div class="about-section__main">
+              <p class="type-label text-muted">02</p>
+              <h2 id="approach-heading" class="type-heading-md project-section__title">Approach</h2>
+              <div class="prose project-section__content">
+                <p>My design process is fundamentally human-centered and human-focused. I believe that great design is always evolving, which is why I embrace an agile methodology that allows for constant iteration and refinement.</p>
+                <p>At the core of my work is a commitment to accessibility; I utilize WCAG guidelines as my primary reference to ensure digital experiences are inclusive for every user. To bridge the gap between user needs and functional solutions, I conduct continuous research throughout the project lifecycle. By keeping the end user at the heart of every decision, I ensure that each design stage is informed by data and grounded in empathy.</p>
+                <p>Beyond the technical process, I am a highly collaborative team player. I believe the best outcomes arise from listening deeply, learning from those around me, and working together to reach meaningful agreements.</p>
+              </div>
+            </div>
+            <div class="about-section__shape" aria-hidden="true">
+              <img src="../Wonder/assets/wonder-circle-red.png" alt="" width="160" height="160">
             </div>
           </article>
 
-          <article class="project-section" aria-labelledby="contact-heading">
-            <p class="type-label text-muted">07</p>
-            <h2 id="contact-heading" class="type-heading-md project-section__title">Contact</h2>
-            <div class="prose project-section__content">
-              <p>Reach out at <a href="mailto:lucreates10@gmail.com" class="text-link">lucreates10@gmail.com</a>.</p>
+          <article class="project-section about-section" id="experience" aria-labelledby="experience-heading">
+            <div class="about-section__main">
+              <p class="type-label text-muted">03</p>
+              <h2 id="experience-heading" class="type-heading-md project-section__title">Experience</h2>
+              <div class="prose project-section__content">
+                <h3 class="type-heading-sm">Product Designer · Alight Solutions, USA · 3 years</h3>
+                <ul>
+                  <li>Served as a key member of the product design team, contributing to end-to-end design solutions for an American company.</li>
+                  <li>Drove UX strategy and UI execution, acting as a primary contributor to visual consistency and interactive flows.</li>
+                  <li>Championed accessibility (A11y) initiatives, ensuring all product interfaces met established standards and provided inclusive experiences for all users.</li>
+                </ul>
+                <h3 class="type-heading-sm stack-4">UX/UI Consultant · SmartSus, Mexico</h3>
+                <ul>
+                  <li>Provide strategic consulting to a Mexican startup, applying user-centered design principles to enhance product usability and interface quality.</li>
+                  <li>Advise on UX, UI, and A11y best practices to optimize the product experience and streamline design workflows.</li>
+                  <li>Drive product improvements through research-backed insights and design expertise.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="about-section__shape" aria-hidden="true">
+              <img src="../Wonder/assets/wonder-circle-red.png" alt="" width="160" height="160">
+            </div>
+          </article>
+
+          <article class="project-section about-section" id="capabilities" aria-labelledby="capabilities-heading">
+            <div class="about-section__main">
+              <p class="type-label text-muted">04</p>
+              <h2 id="capabilities-heading" class="type-heading-md project-section__title">Capabilities</h2>
+              <div class="about-capabilities">
+                <div class="about-capabilities__item">
+                  <h3 class="type-heading-sm project-section__subtitle">Focus</h3>
+                  <div class="prose about-capabilities__content">
+                    <ul>
+                      <li><strong>User Experience (UX) Strategy:</strong> Creating intuitive user flows, sitemaps, and information architecture to solve complex problems.</li>
+                      <li><strong>Accessibility (A11y):</strong> Implementing and advocating for WCAG guidelines to ensure inclusive, equitable digital experiences for all users.</li>
+                      <li><strong>User-Centered Design:</strong> Conducting iterative research to deeply understand user needs and keeping those insights at the center of every design decision.</li>
+                      <li><strong>UI &amp; Design Systems:</strong> Developing scalable design systems, typographic scales, and component specifications to ensure visual consistency across products.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="about-capabilities__item">
+                  <h3 class="type-heading-sm project-section__subtitle">Tools</h3>
+                  <div class="prose about-capabilities__content">
+                    <p><strong>Design &amp; Prototyping:</strong> Figma, Whimsical, Balsamiq, Cursor</p>
+                    <p><strong>Workflow Integration:</strong> Miro, Mural and Jira</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-section__shape" aria-hidden="true">
+              <img src="../Wonder/assets/wonder-circle-red.png" alt="" width="160" height="160">
+            </div>
+          </article>
+
+          <article class="project-section about-section" id="education" aria-labelledby="education-heading">
+            <div class="about-section__main">
+              <p class="type-label text-muted">05</p>
+              <h2 id="education-heading" class="type-heading-md project-section__title">Education</h2>
+              <div class="prose project-section__content">
+                <h3 class="type-heading-sm">Master in Human Computer Interaction (HCI) · Iowa State University</h3>
+                <ul>
+                  <li>
+                    Currently focusing on complex design projects, including digital product interface design, interactive ordering systems, and user-centered evaluation protocols.
+                    <ul>
+                      <li><a href="../Fairshare/fairshare.html" class="text-link">Fairshare</a></li>
+                      <li><a href="../Forma/forma.html" class="text-link">Forma</a></li>
+                      <li>BotBusters</li>
+                      <li>YourPathUSA</li>
+                      <li>Belong</li>
+                    </ul>
+                  </li>
+                </ul>
+                <h3 class="type-heading-sm stack-4">Bachelor of Arts in Animation and Digital Art · ITESM (Tecnológico de Monterrey)</h3>
+              </div>
+            </div>
+            <div class="about-section__shape" aria-hidden="true">
+              <img src="../Wonder/assets/wonder-circle-red.png" alt="" width="160" height="160">
+            </div>
+          </article>
+
+          <article class="project-section about-section" id="interests" aria-labelledby="interests-heading">
+            <div class="about-section__main">
+              <p class="type-label text-muted">06</p>
+              <h2 id="interests-heading" class="type-heading-md project-section__title">Interests</h2>
+              <div class="prose project-section__content">
+                <p>Outside of my professional focus, I am a person who finds joy in creative expression. I love photography and the rhythmic discipline of flamenco. I stay active through tennis and find great satisfaction in the detailed, methodical craft of quilting. Above all, I value meaningful human connections and am committed to fostering community through both my professional and personal life.</p>
+              </div>
+            </div>
+            <div class="about-section__shape" aria-hidden="true">
+              <img src="../Wonder/assets/wonder-circle-red.png" alt="" width="160" height="160">
+            </div>
+          </article>
+
+          <article class="project-section about-section about-section--contact" id="contact" aria-labelledby="contact-heading">
+            <div class="about-section__body">
+              <div class="about-section__shape" aria-hidden="true">
+                <img src="../Wonder/assets/wonder-circle-red.png" alt="" width="160" height="160">
+              </div>
+              <div class="about-section__main">
+                <p class="type-label text-muted">07</p>
+                <h2 id="contact-heading" class="type-heading-md project-section__title">Contact</h2>
+                <div class="prose project-section__content">
+                  <p>Reach out at <a href="mailto:lucreates10@gmail.com" class="text-link">lucreates10@gmail.com</a>.</p>
+                </div>
+              </div>
+            </div>
+            <div class="about-section__rays" aria-hidden="true">
+              <img
+                src="../Wonder/assets/wonder-rays-yellow.png"
+                alt=""
+                width="6400"
+                height="6400"
+              >
             </div>
           </article>
         </div>
@@ -198,6 +264,7 @@
     </div>
   </footer>
 
+  <script src="../js/project-toc.js"></script>
   <script>
     const menuBtn = document.querySelector('.site-nav__menu-btn');
     const mobileNav = document.getElementById('mobile-nav');
@@ -208,6 +275,116 @@
       menuBtn.setAttribute('aria-expanded', String(isOpen));
       menuBtn.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
     });
+
+    function updateAboutRoute() {
+      const body = document.querySelector('.about-page__body');
+      const svg = document.getElementById('about-route');
+      const pathEl = svg && svg.querySelector('.about-route__stroke');
+      if (!body || !svg || !pathEl) return;
+
+      if (window.matchMedia('(max-width: 700px)').matches) {
+        pathEl.setAttribute('d', '');
+        return;
+      }
+
+      const sections = [...body.querySelectorAll('.about-section')];
+      const bodyRect = body.getBoundingClientRect();
+      const width = body.offsetWidth;
+      const height = body.offsetHeight;
+
+      svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+      svg.setAttribute('width', String(width));
+      svg.setAttribute('height', String(height));
+
+      const circles = sections.map((section, index) => {
+        const shape = section.querySelector('.about-section__shape');
+        const main = section.querySelector('.about-section__main');
+        const shapeRect = shape.getBoundingClientRect();
+        const contentRect = (main || section).getBoundingClientRect();
+        const contentBottom = contentRect.bottom - bodyRect.top;
+
+        return {
+          left: shapeRect.left - bodyRect.left,
+          top: shapeRect.top - bodyRect.top,
+          right: shapeRect.right - bodyRect.left,
+          bottom: shapeRect.bottom - bodyRect.top,
+          exitY: contentBottom + 50,
+          isLeft: index % 2 === 0,
+        };
+      });
+
+      if (!circles.length) {
+        pathEl.setAttribute('d', '');
+        return;
+      }
+
+      const r = 70;
+      const fmt = (n) => n.toFixed(1);
+      const cmds = [];
+      let x;
+      let y;
+
+      circles.forEach((circle, index) => {
+        const exitY = circle.exitY;
+
+        if (circle.isLeft) {
+          const edgeX = circle.left;
+
+          if (index === 0) {
+            x = edgeX;
+            y = Math.max(4, circle.top - 24);
+            cmds.push(`M ${fmt(x)} ${fmt(y)}`);
+            y = exitY - r;
+            cmds.push(`V ${fmt(y)}`);
+            x = edgeX + r;
+            y = exitY;
+            cmds.push(`A ${r} ${r} 0 0 0 ${fmt(x)} ${fmt(y)}`);
+          } else {
+            x = edgeX + r;
+            cmds.push(`H ${fmt(x)}`);
+            x = edgeX;
+            y = y + r;
+            cmds.push(`A ${r} ${r} 0 0 0 ${fmt(x)} ${fmt(y)}`);
+            y = exitY - r;
+            cmds.push(`V ${fmt(y)}`);
+            x = edgeX + r;
+            y = exitY;
+            cmds.push(`A ${r} ${r} 0 0 0 ${fmt(x)} ${fmt(y)}`);
+          }
+        } else {
+          const edgeX = circle.right;
+
+          x = edgeX - r;
+          cmds.push(`H ${fmt(x)}`);
+          x = edgeX;
+          y = y + r;
+          cmds.push(`A ${r} ${r} 0 0 1 ${fmt(x)} ${fmt(y)}`);
+          y = exitY - r;
+          cmds.push(`V ${fmt(y)}`);
+          x = edgeX - r;
+          y = exitY;
+          cmds.push(`A ${r} ${r} 0 0 1 ${fmt(x)} ${fmt(y)}`);
+        }
+      });
+
+      const last = circles[circles.length - 1];
+      if (last.isLeft) {
+        x = Math.min(width - 24, last.right + 40);
+        cmds.push(`H ${fmt(x)}`);
+      } else {
+        x = Math.max(24, last.left - 40);
+        cmds.push(`H ${fmt(x)}`);
+      }
+
+      pathEl.setAttribute('d', cmds.join(' '));
+    }
+
+    window.addEventListener('load', updateAboutRoute);
+    window.addEventListener('resize', updateAboutRoute);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(updateAboutRoute);
+    }
+    updateAboutRoute();
   </script>
 </body>
 </html>
