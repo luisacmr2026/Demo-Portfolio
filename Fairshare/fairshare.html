@@ -137,7 +137,7 @@
         <div class="project-content__body">
             <article class="project-section">
               <p class="type-label text-muted">01</p>
-              <h2 id="overview-heading" class="type-heading-lg project-section__title">Overview</h2>
+              <h2 id="overview-heading" class="type-heading-md project-section__title">Overview</h2>
               <div class="prose project-section__content">
                 <p>Fairshare is a collaborative platform that makes managing a shared household easier and more enjoyable. It addresses the everyday challenges of living together by centralizing task management, helping everyone stay on the same page and remain accountable.</p>
                 <p>Instead of boring checklists, Fairshare features a fun point system that motivates everyone to develop good habits and turn routine chores into shared successes. The platform effectively integrates everyone's schedules so that every resident can communicate through a single, unified channel.</p>
@@ -156,9 +156,74 @@
             <article class="project-section">
               <p class="type-label text-muted">03</p>
               <h2 class="type-heading-md project-section__title">Process</h2>
+              <ol class="process-steps" aria-label="Design process stages">
+                <li class="process-steps__item">
+                  <div class="process-steps__mark" aria-hidden="true">
+                    <img
+                      class="process-steps__shape"
+                      src="../Wonder/assets/wonder-circle-yellow.png"
+                      alt=""
+                      width="6400"
+                      height="6400"
+                    >
+                    <img
+                      class="process-steps__icon"
+                      src="../Wonder/assets/Bulb-03.svg"
+                      alt=""
+                      width="24"
+                      height="24"
+                    >
+                  </div>
+                  <p class="type-body-sm process-steps__label">Ideation</p>
+                </li>
+                <li class="process-steps__item">
+                  <div class="process-steps__mark" aria-hidden="true">
+                    <img
+                      class="process-steps__shape"
+                      src="../Wonder/assets/wonder-circle-red.png"
+                      alt=""
+                      width="6400"
+                      height="6400"
+                    >
+                    <img
+                      class="process-steps__icon"
+                      src="../Wonder/assets/Design-01.svg"
+                      alt=""
+                      width="24"
+                      height="24"
+                    >
+                  </div>
+                  <p class="type-body-sm process-steps__label">Design</p>
+                </li>
+                <li class="process-steps__item">
+                  <div class="process-steps__mark" aria-hidden="true">
+                    <img
+                      class="process-steps__shape"
+                      src="../Wonder/assets/wonder-circle-teal.png"
+                      alt=""
+                      width="6400"
+                      height="6400"
+                    >
+                    <img
+                      class="process-steps__icon"
+                      src="../Wonder/assets/Code-02.svg"
+                      alt=""
+                      width="24"
+                      height="24"
+                    >
+                  </div>
+                  <p class="type-body-sm process-steps__label">Implementation</p>
+                </li>
+              </ol>
+            </article>
+
+            <article class="project-section">
+              <p class="type-label text-muted">04</p>
+              <h2 class="type-heading-md project-section__title">Ideation</h2>
               <div class="prose project-section__content">
                 <p>I began by mapping the information architecture, creating comprehensive user flows and a sitemap to ensure the navigation felt logical for diverse household types.</p>
               </div>
+              <h3 class="type-heading-sm project-section__subtitle">User Flow</h3>
               <figure class="project-figure project-figure--contained project-figure--viewport">
                 <div class="project-figure__media">
                   <img
@@ -170,6 +235,7 @@
                   >
                 </div>
               </figure>
+              <h3 class="type-heading-sm project-section__subtitle">Site Map</h3>
               <figure class="project-figure project-figure--contained project-figure--viewport">
                 <div class="project-figure__media">
                   <img
@@ -190,29 +256,36 @@
             </article>
 
             <article class="project-section">
-              <p class="type-label text-muted">04</p>
+              <p class="type-label text-muted">05</p>
               <h2 class="type-heading-md project-section__title">Sketching</h2>
               <div class="prose project-section__content">
                 <p>I started sketching out ideas to create a more engaging experience, focusing on user needs and improving functionality. These sketches are just the beginning of refining the overall user experience.</p>
               </div>
-              <figure class="project-figure project-figure--contained project-figure--viewport">
-                <div class="project-figure__media">
-                  <img
-                    src="Assets/01-Sketches.png"
-                    alt="Fairshare early sketches exploring layout and interaction flows"
-                    width="5105"
-                    height="5399"
+              <figure class="project-figure project-figure--embed">
+                <div class="project-figure__media project-figure__media--embed">
+                  <iframe
+                    class="project-figure__embed"
+                    src="https://embed.figma.com/design/0gqKaZzGd6selShhl8Sy2s/Luisa_Mota---ARTGR4840-5840?node-id=100-712&embed-host=share&page-selector=false&footer=false&viewport-controls=true"
+                    title="Fairshare early sketches in Figma"
+                    allowfullscreen
                     loading="lazy"
-                  >
+                  ></iframe>
                 </div>
                 <figcaption class="project-figure__caption">
-                  <p class="type-caption text-muted"><!-- Sketches caption: add in content.md --></p>
+                  <p class="type-caption text-muted">
+                    <a
+                      href="https://www.figma.com/design/0gqKaZzGd6selShhl8Sy2s/Luisa_Mota---ARTGR4840-5840?node-id=100-712&t=NWfqtUYnSDc4t3PW-4"
+                      class="text-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >Open sketches in Figma</a>
+                  </p>
                 </figcaption>
               </figure>
             </article>
 
             <article class="project-section" aria-labelledby="visual-style-heading">
-              <p class="type-label text-muted">05</p>
+              <p class="type-label text-muted">06</p>
               <h2 id="visual-style-heading" class="type-heading-md project-section__title">Visual Style Deployment</h2>
               <div class="prose project-section__content">
                 <p>I curated a mood board to define the aesthetic direction, prioritizing a clean, functional interface. I formalized these design system specifications in a DESIGN.md file within Cursor, ensuring consistency throughout the build. The color palette draws inspiration from our team's working boards, using lively Post-it colors to evoke collaboration and creativity, making the platform feel more like a shared workspace.</p>
@@ -234,13 +307,13 @@
             </article>
 
             <article class="project-section">
-              <p class="type-label text-muted">06</p>
+              <p class="type-label text-muted">07</p>
               <h2 class="type-heading-md project-section__title">AI-Assisted Deployment</h2>
               <div class="prose project-section__content"></div>
             </article>
 
             <article class="project-section" aria-labelledby="gallery-heading">
-              <p class="type-label text-muted">07</p>
+              <p class="type-label text-muted">08</p>
               <h2 id="gallery-heading" class="type-heading-md project-section__title">Gallery</h2>
               <div class="prose project-section__content"></div>
               <div class="project-gallery">
@@ -334,19 +407,31 @@
             </article>
 
             <article class="project-section">
-              <p class="type-label text-muted">08</p>
+              <p class="type-label text-muted">09</p>
               <h2 class="type-heading-md project-section__title">Deployment</h2>
               <div class="prose project-section__content"></div>
             </article>
 
             <article class="project-section">
-              <p class="type-label text-muted">09</p>
+              <p class="type-label text-muted">10</p>
               <h2 class="type-heading-md project-section__title">Reflection</h2>
               <div class="prose project-section__content"></div>
             </article>
         </div>
       </div>
     </section>
+
+    <div class="project-closer" aria-hidden="true">
+      <div class="container project-closer__inner">
+        <img
+          class="project-closer__shape project-closer__shape--fairshare"
+          src="../Wonder/assets/wonder-star-concave-yellow.png"
+          alt=""
+          width="6400"
+          height="6400"
+        >
+      </div>
+    </div>
 
     <nav class="project-nav" aria-label="Project navigation">
       <div class="container">

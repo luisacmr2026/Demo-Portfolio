@@ -1,5 +1,5 @@
 -----
-cover: assets/forma-card.jpg
+cover: assets/Thumnail-Forma.png
 Title: Forma
 Tagline: Direct-to-consumer craftsmanship: Empowering unique furniture design through a seamless, third-party-free marketplace.
 Role: Product Designer
@@ -15,7 +15,13 @@ Forma is an e-commerce platform designed to remove traditional barriers between 
 I focused on simplifying the customization of furniture to ensure that customers can easily navigate the ordering process without feeling overwhelmed. By creating a platform that showcases quality and unique design, I aimed to build trust while bypassing traditional retail intermediaries. Additionally, I translated complex user flow requirements into a responsive e-commerce interface that maintains high design standards. 
 
 ## Process
+Stages: Ideation · Design · Implementation
+shape: Wonder/assets/wonder-circle-yellow.png
+
+## Ideation
 I started by mapping out the User Flow, which allowed me to navigate the complexities and specific needs of custom furniture configuration effectively.
+
+### User Flow
 flow: assets/01-Flow-Forma.png
 flow: assets/02-Flow-Forma.png
 
