@@ -15,7 +15,7 @@ Forma is an e-commerce platform designed to remove traditional barriers between 
 I focused on simplifying the customization of furniture to ensure that customers can easily navigate the ordering process without feeling overwhelmed. By creating a platform that showcases quality and unique design, I aimed to build trust while bypassing traditional retail intermediaries. Additionally, I translated complex user flow requirements into a responsive e-commerce interface that maintains high design standards. 
 
 ## Process
-Stages: Ideation · Design · Implementation
+Stages: Ideation · Design · AI-Deployment · Implementation
 shape: Wonder/assets/wonder-circle-yellow.png
 
 ## Ideation
@@ -32,10 +32,6 @@ flow: assets/02-Flow-Forma.png
 Developed a moodboard focused on natural wood textures and artisanal craftsmanship to define the visual aesthetic.
 moodboard: assets/forma-moodboard.jpg
 
-## AI-Assisted Deployment
-
-Created a Design.md file to serve as a single source of truth for the project. Worked within Cursor to implement the interface based on the Design.md and established user flows, iterating on the layout and responsiveness until the high-quality standard was achieved.
-
 ## Gallery
 
 1. Homepage — assets/06-Forma.png
@@ -48,7 +44,5 @@ Created a Design.md file to serve as a single source of truth for the project. W
 8. My Orders — assets/10-Forma.png
 9. Edit Order — assets/08-Forma.png
 10. Review Order Changes — assets/07-Forma.png
-
-## Deployment
 
 ## Reflection

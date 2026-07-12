@@ -1577,10 +1577,10 @@ ol {
 
 @media (min-width: 768px) {
   .process-steps {
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-8);
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-6);
     width: 100%;
-    max-width: 48rem;
+    max-width: 56rem;
   }
 }
 
