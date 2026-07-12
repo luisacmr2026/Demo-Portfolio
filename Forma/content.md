@@ -19,9 +19,11 @@ Stages: Ideation · Design · AI-Deployment · Implementation
 shape: Wonder/assets/wonder-circle-yellow.png
 
 ## Ideation
-I started by mapping out the User Flow, which allowed me to navigate the complexities and specific needs of custom furniture configuration effectively.
+For the ideation phase of the Forma project, I began by clearly outlining the core problem. From there, I defined four key user goals that would guide the design process. Each goal was accompanied by a sequence of steps that users would need to take to achieve it. 
 
 ### User Flow
+
+These steps helped me map out four distinct user flows, illustrating the pathways users would follow within the application. By establishing these user flows, I could better understand the interactions required to meet user needs and ensure a smooth experience. This structured approach laid the groundwork for a user-centered design that prioritizes functionality and ease of use.
 flow: assets/01-Flow-Forma.png
 flow: assets/02-Flow-Forma.png
 
@@ -46,3 +48,4 @@ moodboard: assets/forma-moodboard.jpg
 10. Review Order Changes — assets/07-Forma.png
 
 ## Reflection
+This project was completed swiftly, and I felt satisfied with the results. However, I believe that with more time dedicated to user research, this project could advance further and achieve even better outcomes. Personally, I enjoyed utilizing AI throughout the process, as it enabled me to create more complex features, such as the live 3D model that updates in real-time based on user customization.
